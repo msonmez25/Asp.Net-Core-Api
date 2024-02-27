@@ -1,0 +1,28 @@
+﻿
+<li class="icons dropdown">
+    <div class="user-img c-pointer position-relative" data-toggle="dropdown">
+        @* <span class="activity active"></span> *@
+        <img src="@ViewBag.ImageUrl" height="40" width="40" alt="">
+        <span>@ViewBag.user</span>
+    </div>
+    
+   
+
+    <div class="drop-down dropdown-profile   dropdown-menu">
+        <div class="dropdown-content-body">
+            <ul>
+                <li>
+                    <a href="/Settings/Index/"><i class="fa fa-address-card"></i> <span>Profilim</span></a>
+                </li>
+                <li>
+                    <a href="/AdminContact/Inbox"><i class="fa fa-envelope"></i> <span>Gelen Kutusu</span></a>
+                </li>
+
+                <li>
+                    <a href="/Default/Index" target="_blank"><i class="fa fa-home"></i> <span>Ana Sayfa</span></a>
+                </li>
+                <li><a href="/Login/LogOut"><i class="fa fa-power-off"></i> <span>Çıkış</span></a></li>
+            </ul>
+        </div>
+    </div>
+</li>

@@ -1,0 +1,24 @@
+﻿{
+	    "sEmptyTable":   	"Görüntülenecek kayıt yok.",
+	    "sInfo":            "Toplam _TOTAL_ kayıttan _START_ ila _END_ arası görüntüleniyor.",
+	    "sInfoEmpty":       "Toplam 0 kayıttan 0 ila 0 arası gösteriliyor.",
+        "sInfoFiltered": 	"(_MAX_ kayıt arasından filtrelendi.)",
+        "sInfoPostFix":  	"",
+        "sInfoThousands":  	".",
+        "sLengthMenu":   	"_MENU_ Kayıt Görüntüle",
+        "sLoadingRecords": 	"Kayıtlar Yükleniyor...",
+        "sProcessing":   	"İşlem Yapılıyor...",
+        "sSearch":       	"Ara",
+        "sZeroRecords":  	"Eşleşen kayıt bulunamadı.",
+        "oPaginate": {
+            "sFirst":    	"İlk",
+            "sPrevious": 	"Önceki",
+            "sNext":     	"Sonraki",
+            "sLast":     	"Son"
+        },
+        "oAria": {
+            "sSortAscending":  ": artan sırada sıralamayı aktif et",
+            "sSortDescending": ": azalan sırada sıralamayı aktif et"
+                        
+    }
+}

@@ -1,0 +1,56 @@
+﻿@model UpdateRoomDto
+@{
+    ViewData["Title"] = "UpdateRoom";
+    Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+
+
+<div class="content-body">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+
+
+                        <form method="post">
+                            <input type="hidden" asp-for="RoomID" />
+                            <label>Oda Numarası</label>
+                            <input type="text" class="form-control" asp-for="RoomNumber">
+                            <br />
+                            <label>Oda Başlığı</label>
+                            <input type="text" class="form-control" asp-for="Title">
+                            <br />
+                            <label>Fiyat</label>
+                            <input type="text" class="form-control" asp-for="Price">
+                            <br />
+                            <label>Yatak Odası Sayısı</label>
+                            <input type="text" class="form-control" asp-for="BedCount">
+                            <br />
+                            <label>Banyo Sayısı</label>
+                            <input type="text" class="form-control" asp-for="BathCount">
+                            <br />
+                            <label>Oda Fotoğrafı</label>
+                            <input type="text" class="form-control" asp-for="RoomCoverImage">
+                            <br />
+                            <label>Açıklama</label>
+                            <input type="text" class="form-control" asp-for="Description">
+                            <br />
+
+                            <button class="btn mb-1 btn-success">
+                                Oda Bilgilerini Güncelle <span class="btn-icon-right"><i class="fa fa-check"></i></span>
+                            </button>
+
+                            <a href="/AdminRoom/Index/" class="btn mb-1 btn-warning">
+                                Odalar Listesine Dön <span class="btn-icon-right"><i class="fa fa-backward"></i></span>
+                            </a>
+                        </form>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

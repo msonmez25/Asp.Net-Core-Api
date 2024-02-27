@@ -1,0 +1,42 @@
+﻿@model AddServiceDto
+@{
+    ViewData["Title"] = "AddService";
+    Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+<div class="content-body">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+
+                        <form method="post">
+                            <label>Hizmet İkonu</label>
+                            <input type="text" class="form-control" placeholder="İkon" asp-for="ServiceIcon">
+                            <span asp-validation-for="ServiceIcon" class="text-danger"></span>
+                            <br />
+                            <label>Hizmet Başlığı</label>
+                            <input type="text" class="form-control" placeholder="Başlık" asp-for="Title">
+                            <span asp-validation-for="Title" class="text-danger"></span>
+                            <br />
+                            <label>Açıklama</label>
+                            <input type="text" class="form-control" placeholder="Açıklama" asp-for="Description">
+                            <br />
+
+                            <button class="btn mb-1 btn-primary">
+                                Hizmeti Ekle <span class="btn-icon-right"><i class="fa fa-check"></i></span>
+                            </button>
+
+                            <a href="/Service/Index/" class="btn mb-1 btn-warning">
+                                Hizmetlere Dön <span class="btn-icon-right"><i class="fa fa-backward"></i></span>
+                            </a>
+                        </form>
+                       
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

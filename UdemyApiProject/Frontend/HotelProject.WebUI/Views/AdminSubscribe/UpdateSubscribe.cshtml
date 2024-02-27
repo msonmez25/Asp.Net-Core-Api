@@ -1,0 +1,35 @@
+﻿@model UpdateSubscribeDto
+@{
+    ViewData["Title"] = "UpdateSubscribe";
+    Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+<div class="content-body">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <form method="post">
+                            <input type="hidden" asp-for="SubscribeID" />
+                            <label>Mail Adresi</label>
+                            <input type="text" class="form-control" placeholder="İkon" asp-for="Mail">                           
+                            <br />
+                            
+                            <button class="btn mb-1 btn-success">
+                                Maili Güncelle <span class="btn-icon-right"><i class="fa fa-check"></i></span>
+                            </button>
+
+                            <a href="/AdminSubscribe/Index/" class="btn mb-1 btn-warning">
+                                Mail Bülten Üye Listesine Dön <span class="btn-icon-right"><i class="fa fa-backward"></i></span>
+                            </a>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

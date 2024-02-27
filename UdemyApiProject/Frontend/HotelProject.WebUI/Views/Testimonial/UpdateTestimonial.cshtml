@@ -1,0 +1,50 @@
+﻿@model UpdateTestimonialViewModel
+@{
+    ViewData["Title"] = "UpdateTestimonial";
+    Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+
+<div class="content-body">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+
+                        <form method="post">
+                            <input type="hidden" asp-for="TestimonialID" />
+                            <label>Adı Soyadı</label>
+                            <input type="text" class="form-control" asp-for="Name">
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                            <br />
+                            <label>Unvanı</label>
+                            <input type="text" class="form-control" asp-for="Title">
+                            <span asp-validation-for="Title" class="text-danger"></span>
+                            <br />
+                            <label>Açıklama</label>
+                            <input type="text" class="form-control" asp-for="Description">
+                            <br />
+                            <label>Görsel</label>
+                            <input type="text" class="form-control" asp-for="Image">
+                            <br />
+
+                            <button class="btn mb-1 btn-primary">
+                                Referansı Güncelle <span class="btn-icon-right"><i class="fa fa-check"></i></span>
+                            </button>
+
+                            <a href="/Testimonial/Index/" class="btn mb-1 btn-warning">
+                                Referanslar Listesine Dön <span class="btn-icon-right"><i class="fa fa-backward"></i></span>
+                            </a>
+                        </form>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

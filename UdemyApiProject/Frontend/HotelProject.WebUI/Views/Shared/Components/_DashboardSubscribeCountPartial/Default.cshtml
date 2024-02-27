@@ -1,0 +1,139 @@
+﻿
+
+<div class="row">
+    <div class="col-lg-3 col-sm-6">
+        <div class="card">
+            <div class="social-graph-wrapper widget-facebook">
+                <span class="s-icon"><i class="fa fa-facebook"></i></span>
+            </div>
+            <div class="row">
+                <div class="col-6 border-right">
+                    <div class="pt-3 pb-3 pl-0 pr-0 text-center">
+                        <h4 class="m-1">89k</h4>
+                        <p class="m-0">Arkadaşlarım</p>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="pt-3 pb-3 pl-0 pr-0 text-center">
+                        <h4 class="m-1">119k</h4>
+                        <p class="m-0">Takip Ettiklerim</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-sm-6">
+        <div class="card">
+            <div class="social-graph-wrapper widget-linkedin">
+                <span class="s-icon"><i class="fa fa-linkedin"></i></span>
+            </div>
+            <div class="row">
+                <div class="col-6 border-right">
+                    <div class="pt-3 pb-3 pl-0 pr-0 text-center">
+                        @if (@ViewBag.LinkedinTakipcilerim != null)
+                        {
+                            <h4 class="m-1">@ViewBag.LinkedinTakipcilerim</h4>
+                        }
+                        else
+                        {
+                            <h4 class="m-1">203</h4>
+                        }
+                        <p class="m-0">Takipçilerim</p>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="pt-3 pb-3 pl-0 pr-0 text-center">
+                        @if (@ViewBag.LinkedinBaglantilarim != null)
+                        {
+                            <h4 class="m-1">@ViewBag.LinkedinBaglantilarim</h4>
+                        }
+                        else
+                        {
+                            <h4 class="m-1">189</h4>
+                        }    
+                        <p class="m-0">Bağlantılarım</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+        <div class="col-lg-3 col-sm-6">
+            <div class="card">
+                <div class="social-graph-wrapper widget-googleplus">
+                    <span class="s-icon"><i class="fa fa-instagram"></i></span>
+                </div>
+                <div class="row">
+                    <div class="col-6 border-right">
+                        <div class="pt-3 pb-3 pl-0 pr-0 text-center">
+
+                        @if (@ViewBag.takipcilerim != null)
+                        {
+                            <h4 class="m-1">@ViewBag.takipcilerim</h4>
+                        }
+                        else
+                        {
+                            <h4 class="m-1">207</h4>
+                        }                       
+                            <p class="m-0">Takipçilerim</p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="pt-3 pb-3 pl-0 pr-0 text-center">
+                        @if (@ViewBag.takipEttigim != null)
+                        {
+                            <h4 class="m-1">@ViewBag.takipEttigim</h4>
+                        }
+                        else
+                        {
+                            <h4 class="m-1">335</h4> 
+                        }
+                        
+                            <p class="m-0">Takip Ettiklerim</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   
+    <div class="col-lg-3 col-sm-6">
+        <div class="card">
+            <div class="social-graph-wrapper widget-twitter">
+                <span class="s-icon"><i class="fa fa-twitter"></i></span>
+            </div>
+            <div class="row">
+                <div class="col-6 border-right">
+                    <div class="pt-3 pb-3 pl-0 pr-0 text-center">
+
+                        @if (@ViewBag.TwitterTakipcilerim != null)
+                        {
+                            <h4 class="m-1">@ViewBag.TwitterTakipcilerim k</h4>
+                        }
+                        else
+                        {
+                            <h4 class="m-1">21 k</h4>
+                        }
+                        
+                        <p class="m-0">Takipçilerim</p>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="pt-3 pb-3 pl-0 pr-0 text-center">
+
+                        @if (@ViewBag.TwitterTakipEttiklerim != null)
+                        {
+                            <h4 class="m-1">@ViewBag.TwitterTakipEttiklerim k</h4>
+                        }
+                        else
+                        {
+                            <h4 class="m-1">7 k</h4>
+                        }                        
+                        <p class="m-0">Takip Ettiklerim</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

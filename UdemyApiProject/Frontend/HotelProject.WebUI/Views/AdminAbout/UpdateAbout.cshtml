@@ -1,0 +1,60 @@
+﻿@model UpdateAboutDto
+@{
+    ViewData["Title"] = "UpdateAbout";
+    Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+
+
+
+<div class="content-body">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+
+                        <form method="post">
+                            <input type="hidden" asp-for="AboutID" />
+                            <label>Hakkımızda Başlık 1</label>
+                            <input type="text" class="form-control" asp-for="Title1">
+                            <br />
+
+                            <label>Hakkımızda Başlık 2</label>
+                            <input type="text" class="form-control" asp-for="Title2">
+                            <br />
+
+                            <label>Hakkımızda Açıklama</label>
+                            @* <input type="text-area" class="form-control" rows="6" asp-for="Content"> *@
+                            <textarea class="form-control h-150px" rows="6" asp-for="Content"></textarea>
+                            <br />
+
+                            <label>Personel Sayısı</label>
+                            <input type="text" class="form-control" asp-for="StaffCount" readonly>
+                            <br />
+
+                            <label>Oda Sayısı</label>
+                            <input type="text" class="form-control" asp-for="RoomCount" readonly>
+                            <br />
+
+                            <label>Müşteri Sayısı</label>
+                            <input type="text" class="form-control" asp-for="CustomerCount" readonly>
+                            <br />
+
+                            <button class="btn mb-1 btn-success">
+                                Hakkımızdayı Güncelle <span class="btn-icon-right"><i class="fa fa-check"></i></span>
+                            </button>
+
+                            <a href="/AdminAbout/Index/" class="btn mb-1 btn-warning">
+                                Hakkımızda Listesine Dön <span class="btn-icon-right"><i class="fa fa-backward"></i></span>
+                            </a>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
