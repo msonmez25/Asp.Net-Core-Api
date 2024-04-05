@@ -1,0 +1,7 @@
+![hotel1](https://github.com/msonmez25/Asp.Net-Core-Api/assets/108278647/d39ddb8d-62d8-470a-820f-4473c4613bd1)
+![hotel2](https://github.com/msonmez25/Asp.Net-Core-Api/assets/108278647/8883bdb8-c871-4a58-b56e-75fd35c0466a)
+![hotel3](https://github.com/msonmez25/Asp.Net-Core-Api/assets/108278647/f33a6393-ffdb-42ea-a3a6-1b42bc6c7f4d)
+![hotel4](https://github.com/msonmez25/Asp.Net-Core-Api/assets/108278647/59328960-b3b9-455d-a1bb-2e9e40934c69)
+![hotel5](https://github.com/msonmez25/Asp.Net-Core-Api/assets/108278647/4bfc37f9-81a6-4c6a-b60b-f8c445052a79)
+![hotel6](https://github.com/msonmez25/Asp.Net-Core-Api/assets/108278647/93c8606b-c0fb-446d-8953-53d6d19eaf42)
+![hotel7](https://github.com/msonmez25/Asp.Net-Core-Api/assets/108278647/9745abcf-dc31-4127-8ed8-58d36ca168d4)
